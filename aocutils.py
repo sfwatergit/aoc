@@ -278,7 +278,7 @@ def a_star(
     heuristic: typing.Optional[typing.Callable[[T], int]] = None,
 ) -> typing.Tuple[int, typing.List[T]]:
     """
-    expand should return an iterable of (dist, successor node) tuples.
+    expand Should return an iterable of (dist, successor node) tuples.
     Returns (distance, path).
     """
     g_values, parents = dijkstra(from_node, to_node=to_node, expand=expand, heuristic=heuristic)

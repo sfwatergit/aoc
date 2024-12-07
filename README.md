@@ -1,3 +1,3 @@
-# Sid's Collection of Advent of Code Solutions (attempts)
+# Sid's Collection of Advent of Code Solutions
 
 Written in Python. Organized by year/day
